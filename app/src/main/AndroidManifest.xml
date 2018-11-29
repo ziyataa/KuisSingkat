@@ -19,7 +19,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".KuisPilihanGanda" />
         <activity android:name=".KuisEssay" />
-        <activity android:name=".HasilSkoring"></activity>
+        <activity android:name=".HasilSkoring" />
+        <activity android:name=".Profile" />
+        <activity android:name=".About"></activity>
     </application>
 
 </manifest>

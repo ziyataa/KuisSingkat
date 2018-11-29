@@ -6,9 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".KuisEssay"
-    android:background="#8eaeff">
-
-
+    android:background="@drawable/bg">
 
     <LinearLayout
         android:id="@+id/lineSkor2"
@@ -61,7 +59,7 @@
         android:background="#fff"
         android:gravity="center"
         android:hint="Masukkan Jawaban disini"
-        android:padding="10dp"
+        android:padding="20dp"
         android:textSize="18sp"
         android:inputType="text"/>
 
@@ -73,7 +71,7 @@
         android:layout_below="@id/edtJawaban"
         android:layout_margin="10dp"
         android:text="SUBMIT"
-        android:background="#5f7dc9"/>
+        android:background="#ff0004"/>
 
 </RelativeLayout>
 

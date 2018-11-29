@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HasilSkoring">
+    tools:context=".HasilSkoring"
+    android:background="@drawable/bg">
 
     <ImageView
         android:id="@+id/imageCongrats"
@@ -24,9 +25,10 @@
         android:background="#b5fffe"
         android:gravity="center"
         android:padding="10dp"
+        android:textStyle="bold"
         android:text="SKOR : 100"
         android:textColor="#000"
-        android:textSize="36sp"/>
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/btnMenu"
@@ -36,7 +38,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:text="HOME"
-        android:background="#f58686"
+        android:background="#ff0004"
         android:textSize="20sp"/>
 
 </RelativeLayout>
